@@ -1,3 +1,11 @@
+多个源文件
 头文件.h中声明 void printHello（void）
 print.c文件中详细声明printHello函数的作用
-helloword.c文件中引用 printHello函数 即
+helloword.c文件中引用 printHello函数 即 printf("hello word!\n");
+
+求整数之积
+定义整型变量（两个整数x y 合 m） ——> 输入整数用scanf（%d%d, &x &y）; 注意&， ——> m =  x * y; ——> 输出结果（int 依旧是用%d）
+
+比较实数的大小
+用到float型函数  scanf中使用%f   判断函数条件语句 c = x>y ? x:y 解释为 如果x>y 则取 ? 后x的值 反之取 y 最后输出比较结果 
+
