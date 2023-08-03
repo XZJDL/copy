@@ -1,0 +1,3 @@
+头文件.h中声明 void printHello（void）
+print.c文件中详细声明printHello函数的作用
+helloword.c文件中引用 printHello函数 即
